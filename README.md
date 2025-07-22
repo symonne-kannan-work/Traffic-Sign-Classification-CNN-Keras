@@ -1,6 +1,6 @@
 # 🚦 GTSRB Traffic Sign Classification with Deep Learning (Keras + CNN)
 
-A comprehensive computer vision project that classifies traffic signs using a Convolutional Neural Network (CNN) trained on the German Traffic Sign Recognition Benchmark (GTSRB). This project includes detailed preprocessing, data augmentation, model tuning, evaluation, and visualization steps.
+A comprehensive computer vision project that classifies traffic signs using a Convolutional Neural Network (CNN) trained on the [German Traffic Sign Recognition Benchmark (GTSRB)](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). This project includes detailed preprocessing, data augmentation, model tuning, evaluation, and visualization steps.
 
 ---
 
@@ -28,9 +28,9 @@ This project aims to classify traffic signs into 43 categories using a deep lear
 
 ## 📦 Dataset
 
-We use the **GTSRB** dataset, which contains 50,000+ images of German traffic signs across **43 categories**. For efficiency, we use pickled data files: `train.p`, `valid.p`, and `test.p`.
+I used the **GTSRB** dataset, which contains 50,000+ images of German traffic signs across **43 categories**. For efficiency, I used pickled data files: `train.p`, `valid.p`, and `test.p`.
 
-You can generate these using scripts or obtain them from Kaggle variants of GTSRB.
+Download the [data set](https://bitbucket.org/jadslim/german-traffic-signs/src/master/). It contains signnames.csv, training, validation and test set
 
 ---
 
